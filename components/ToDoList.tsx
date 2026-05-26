@@ -69,7 +69,7 @@ export function TodoList({ initialTodos = [] }: TodoListProps) {
 
       {tarefas.length === 0 && (
         <Text testID="empty" style={styles.emptyText}>
-          Nenhuma tarefaa
+          Nenhuma tarefa
         </Text>
       )}
       <FlatList
